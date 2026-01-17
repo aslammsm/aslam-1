@@ -21,4 +21,4 @@ This project is a decentralized Peer-to-Peer (P2P) Federated Learning implementa
 * ## 📄 Project Documentation
 This project includes a detailed report covering the theory, methodology, and experimental results.
 
-[**Click here to read the full Project Report (PDF)**](./Federated_Learning_Report)
+[**Click here to read the full Project Report (PDF)**](./Federated_Learning_Report.pdf)
