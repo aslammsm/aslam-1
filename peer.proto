@@ -1,0 +1,16 @@
+syntax = "proto3";
+package flwr.peer;
+
+message ModelUpdate {
+  string sender_id = 1;
+  bytes parameters = 2; // Serialized flwr.common.parameter.Parameters
+  int32 round = 3;
+}
+
+message Ack {
+  bool success = 1;
+}
+
+service PeerService {
+  rpc SendUpdate (ModelUpdate) returns (Ack);
+}
